@@ -1,5 +1,6 @@
 # pirates-csg-point-calculator
-This program calculates an estimation for what a ship's point total should be. It utilizes ML and the error value is approximately 1 point so it is fairly accurate
+This program calculates an estimation for what a ship's point total should be. It utilizes ML and the error value is approximately 1 point so it is fairly accurate.
+There is a premade windows program in the releases tab in github here: https://github.com/random-retro-gaming-projects/pirates-csg-point-calculator/releases/tag/v1
 
 
 To create windows .exe from pirates_gui.py, in this directory:
