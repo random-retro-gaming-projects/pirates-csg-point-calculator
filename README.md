@@ -3,9 +3,14 @@ This program calculates an estimation for what a ship's point total should be. I
 There is a premade windows .exe program in the releases tab in github here: 
 https://github.com/random-retro-gaming-projects/pirates-csg-point-calculator/releases/tag/v1
 
+Note: The following cli and installation steps require running at least these pip installs
+`pip install pandas numpy scikit-learn joblib openpyxl pyinstaller`
+
 Also in this repository is a cli version of this application, that uses the same .pkl
 It can be invoked by using 
 `python pirates_cli.py --masts 3 --cargo 4 --base_move "S+L" --cannons "3S,4L" --faction "Pirates" --abilities "Captain. Fear. +1 to cannon rolls."`
+
+
 
 To create windows .exe from pirates_gui.py, in this directory:
 `python -m PyInstaller -w -F --add-data "pirates_point_model.pkl;." pirates_gui.py`
